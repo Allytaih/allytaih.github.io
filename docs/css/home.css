@@ -1,0 +1,20 @@
+:root {
+    --color1: lightgray;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#navbar {
+    display: flex;
+    background-color: var(--color1);
+}
